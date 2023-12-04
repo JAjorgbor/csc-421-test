@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/dist.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .hero {
+      background-position-x: center;
+    }
+
+    @media screen and (min-width: 1500px) {
+      .hero {
+        /* background-position-y: -13rem; */
+      }
+    }
+
+    /* background-position-y: -13rem; */
+
+    /* .image {
+      width: 100px;
+    } */
+  </style>
+</head>
+
+<body>
+  <main class="container mx-auto">
+    <header class="mx-auto container absolute top-0 w-full">
+      <nav class=" flex justify-between w-5/6 mx-auto px-5 py-4">
+        <div class="text-capitalize text-2xl text-white">Joshua Ajorgbor</div>
+        <ul class="hidden md:flex md:w-2/5 justify-between">
+          <li
+            class="text-white py-3 px-5 transform-colors duration-150 rounded-3xl cursor-pointer hover:bg-[rgba(255,255,255,0.5)]">
+            <a href="#">About</a>
+          </li>
+          <li
+            class="text-white py-3 px-5 transform-colors duration-150 rounded-3xl cursor-pointer hover:bg-[rgba(255,255,255,0.5)]">
+            <a href="#">Services</a>
+          </li>
+          <li
+            class="text-white py-3 px-5 transform-colors duration-150 rounded-3xl cursor-pointer hover:bg-[rgba(255,255,255,0.5)]">
+            <a href="#">Projects</a>
+          </li>
+          <li
+            class="text-white py-3 px-5 transform-colors duration-150 rounded-3xl cursor-pointer hover:bg-[rgba(255,255,255,0.5)]">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Start hero section -->
+    <section
+      class="hero h-[40rem] bg-[url('../images/desktop/hero-image.jpg')] bg-cover bg-no-repeat text-center  pt-20 md:pt-28 grid place-items-center">
+
+      <h1 class="text-[3rem] uppercase text-white">
+        Hi, I'm Joshua.
+      </h1>
+
+    </section>
+
+    <!-- End hero section -->
+
+    <!-- Start Info section -->
+    <section class="mx-auto w-[90%]">
+      <div class="flex flex-col">
+
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="h-[500px] order-first ">
+            <img src="./images/desktop/about-me.jpg" alt="egg" class="object-contain w-full h-full ">
+          </div>
+          <div class="p-5 lg:p-28 ">
+
+            <h2 class="font-bold text-[2rem] uppercase">
+              ABOUT ME
+            </h2>
+            <p class="my-3">
+
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem officia quasi architecto eum non
+              excepturi minima obcaecati tempore adipisci rem neque dignissimos eos consequatur dolores, quia quis
+              accusamus, unde fugit natus. Obcaecati ut nihil officiis dolorem? Voluptatibus asperiores praesentium
+              incidunt reprehenderit mollitia necessitatibus earum qui odit. Voluptatem sint cum voluptatibus corporis a
+              vero accusamus fugiat soluta.
+
+            </p>
+          </div>
+
+        </div>
+        <div class="md:w-4\5 mx-auto gap-6 my-10">
+          <h2 class="font-bold text-[2rem] text-center my-5">
+            Skills & Competencies
+          </h2>
+          <div class="grid grid-cols-4 ">
+            <img src="./images/skills/html-logo.png" alt="" class="w-[100px] object-contain">
+            <img src="./images/skills/css-logo.png" alt="" class="w-[100px] object-contain">
+            <img src="./images/skills/js-logo.png" alt="" class="w-[100px] object-contain">
+            <img src="./images/skills/react-logo.png" alt="" class="w-[100px] object-contain">
+          </div>
+
+        </div>
+        <h2 class="font-bold text-[2rem] text-center my-10">
+          My Portfolio
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="p-5 lg:p-28 ">
+
+            <h2 class="font-bold text-[2rem]">
+              Pharmahubemedica.ng
+            </h2>
+            <p class="my-3">
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestiae maiores cumque assumenda alias
+              possimus eius at veniam aspernatur. Sit molestias praesentium libero perspiciatis dicta id nostrum fuga
+              quia dolores? Quod distinctio saepe amet soluta? Obcaecati quo recusandae quasi corrupti repudiandae!
+              Asperiores repellendus eos accusamus?
+
+            </p>
+            <h6>
+              <a href="#"
+                class="relative after:w-[120%] after:h-3 after:bg-red-500 after:opacity-60 after:absolute after:-bottom-1 after:-left-[10%] after:rounded-3xl after:hidden ">
+                Learn more
+              </a>
+            </h6>
+          </div>
+          <div class="h-[450px] order-first md:order-2">
+            <img src="./images/portfolio/pharmahubmedica.png" alt="egg" class="object-contain w-full h-full ">
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="h-[450px] ">
+            <img src="./images/portfolio//linqman.png" alt="egg" class="object-contain w-full h-full">
+          </div>
+          <div class=" p-5 lg:p-28">
+
+
+            <h2 class="text-[2rem]">
+              Linqman
+            </h2>
+            <p class="my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis veniam nihil dolorem perspiciatis
+              facilis voluptatem aliquid dolor facere accusamus maiores quos magni, hic eveniet error iste saepe maxime
+              quas cum! Maiores, magnam ratione corporis ea quibusdam sunt eligendi labore dolore laudantium nesciunt,
+              laboriosam repellendus aspernatur?
+            </p>
+            <h6>
+              <a href="#">
+                Learn more
+              </a>
+            </h6>
+          </div>
+        </div>
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2">
+          <div
+            class="h-[450px] bg-[url('../images/mobile/image-graphic-design.jpg')] md:bg-[url('../images/desktop/image-graphic-design.jpg')] bg-cover flex justify-center items-end pb-12 lg:pb-16">
+            <div class="px-3 md:px-0 md:w-4/5 h-auto text-center ">
+
+              <h2 class="text-[2rem]">
+                Photography
+              </h2>
+              <p class="my-3">
+                Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                image.
+              </p>
+            </div>
+          </div>
+          <div
+            class="  h-[450px] bg-[url('../images/mobile/image-photography.jpg')] md:bg-[url('../images/desktop/image-photography.jpg')] bg-cover flex justify-center items-end pb-12 lg:pb-16">
+            <div class="px-3 md:px-0 md:w-4/5 h-auto text-center ">
+              <h2 class=" text-[2rem]">
+                Graphic design
+              </h2>
+              <p class="my-3">
+                Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+                potential
+                clients’ attention.
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="p-5 lg:p-28 ">
+
+            <h2 class="font-bold text-[2rem]">
+              Easy Bank Landing page
+            </h2>
+            <p class="my-3">
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestiae maiores cumque assumenda alias
+              possimus eius at veniam aspernatur. Sit molestias praesentium libero perspiciatis dicta id nostrum fuga
+              quia dolores? Quod distinctio saepe amet soluta? Obcaecati quo recusandae quasi corrupti repudiandae!
+              Asperiores repellendus eos accusamus?
+
+            </p>
+            <h6>
+              <a href="#"
+                class="relative after:w-[120%] after:h-3 after:bg-red-500 after:opacity-60 after:absolute after:-bottom-1 after:-left-[10%] after:rounded-3xl after:hidden ">
+                Learn more
+              </a>
+            </h6>
+          </div>
+          <div class="h-[450px] order-first md:order-2">
+            <img src="./images/portfolio/easybanklandingpage.png" alt="egg" class="object-contain w-full h-full ">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="p-5 lg:p-28 ">
+
+            <h2 class="font-bold text-[2rem]">
+              Github Finder
+            </h2>
+            <p class="my-3">
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestiae maiores cumque assumenda alias
+              possimus eius at veniam aspernatur. Sit molestias praesentium libero perspiciatis dicta id nostrum fuga
+              quia dolores? Quod distinctio saepe amet soluta? Obcaecati quo recusandae quasi corrupti repudiandae!
+              Asperiores repellendus eos accusamus?
+
+            </p>
+            <h6>
+              <a href="#"
+                class="relative after:w-[120%] after:h-3 after:bg-red-500 after:opacity-60 after:absolute after:-bottom-1 after:-left-[10%] after:rounded-3xl after:hidden ">
+                Learn more
+              </a>
+            </h6>
+          </div>
+          <div class="h-[450px] order-first ">
+            <img src="./images/portfolio/github-finder.png" alt="egg" class="object-contain w-full h-full ">
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- Start Info section -->
+
+
+    <!-- Start Testimonials Section -->
+    <section class="py-20 lg:w-4/5 mx-auto">
+      <h3 class="text-center">
+        Client testimonials
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-5 gap-10 md:gap-3">
+        <div class="text-center flex flex-col gap-10 justify-center">
+          <div class="">
+            <img src="./images/image-emily.jpg" alt="emily" class="rounded-full w-12 inline-block">
+          </div>
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.
+          </p>
+          <div class="flex flex-col gap-3">
+            <h4>
+              Emily R.
+            </h4>
+            <p class="text-slate-400">
+              Marketing Director
+            </p>
+          </div>
+        </div>
+        <div class="text-center flex flex-col gap-8 justify-center">
+          <div class="">
+            <img src="./images/image-thomas.jpg" alt="thomas" class="rounded-full w-12 inline-block">
+          </div>
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable
+            experience.
+          </p>
+          <div class="flex flex-col gap-3">
+            <h4>
+              Thomas S.
+            </h4>
+            <p class="text-slate-400">
+              Chief Operating Officer
+            </p>
+          </div>
+        </div>
+        <div class="text-center flex flex-col gap-8 justify-center">
+          <div class="">
+            <img src="./images/image-jennie.jpg" alt="jennie" class="rounded-full w-12 inline-block">
+          </div>
+          <p>
+
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <div class="flex flex-col gap-3">
+            <h4>
+              Jennie F.
+            </h4>
+            <p class="text-slate-400">
+              Business Owner
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- Start Gallary section -->
+    <!-- <section>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="h-[400px]">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk bottles"
+            class="object-contain w-full h-full">
+        </div>
+        <div class="h-[400px]">
+          <img src="./images/desktop/image-gallery-orange.jpg" alt="orange" class="object-contain w-full h-full">
+        </div>
+        <div class="h-[400px]">
+          <img src="./images/desktop/image-gallery-cone.jpg" alt="ice cream cone" class="object-contain w-full h-full">
+        </div>
+        <div class="h-[400px]">
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Sugar cubes"
+            class="object-contain w-full h-full">
+        </div>
+      </div>
+    </section> -->
+    <!-- End Gallary section -->
+
+    <!-- Start Contact Form -->
+    <section>
+      <section class="bg-white dark:bg-blue-400">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">Contact Us
+          </h2>
+          <p class="mb-8 lg:mb-16 font-light text-center text-white dark:text-white sm:text-xl">Got a technical
+            issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+          <form action="#" class="space-y-8">
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-white dark:text-white">Your
+                email</label>
+              <input type="email" id="email"
+                class="shadow-sm bg-white border border-white  text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-white dark:border-white dark:placeholder-white  dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="name@joshua.com" required>
+            </div>
+            <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-white dark:text-white">Subject</label>
+              <input type="text" id="subject"
+                class="block p-3 w-full text-sm bg-white rounded-lg border border-white shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-white dark:border-white dark:placeholder-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="Let us know how we can help you" required>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-white">Your
+                message</label>
+              <textarea id="message" rows="6"
+                class="block p-2.5 w-full text-sm  bg-white rounded-lg shadow-sm border border-white focus:ring-primary-500 focus:border-primary-500 dark:bg-white dark:border-white dark:placeholder-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit"
+              class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+              message</button>
+          </form>
+        </div>
+      </section>
+    </section>
+    <!-- End Contact Form -->
+
+    <!-- Start Footer -->
+    <footer class="bg-green-300 min-h-[10rem] py-24">
+      <div class="text-center">
+
+        <h3 class="text-white text-[1.5rem]">
+          Joshua Ajorgbor
+          <br>
+          VUG/CSC/20/4887
+        </h3>
+        <ul class="flex w-4/5 sm:w-3/5 lg:w-1/5 justify-between mx-auto py-10">
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+        </ul>
+        <ul class="flex w-3/5 sm:w-2/5 lg:w-1/6 justify-between mx-auto py-5">
+          <li><img src="./images/icon-facebook.svg" alt="facebook-icon"></li>
+          <li><img src="./images/icon-instagram.svg" alt="instagram-icon"></li>
+          <li><img src="./images/icon-twitter.svg" alt="twitter-icon"></li>
+          <li><img src="./images/icon-pinterest.svg" alt="pinterest-icon"></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/jajorgbor">Joshua Aj</a>.
+  </div>
+</body>
+
+</html>

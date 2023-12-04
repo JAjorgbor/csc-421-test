@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Barlow", sans-serif;
+  @apply text-slate-500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+  @apply text-black;
+}
